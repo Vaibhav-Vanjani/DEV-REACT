@@ -1,0 +1,7 @@
+.star-container{
+    display: flex;
+}
+
+.star{
+    font-size: 4rem;
+}
