@@ -1,0 +1,20 @@
+<input> is a self-closing / void element:
+<input type="text" value="Hello" />
+
+
+It does not have any child nodes (no inner content).
+
+So innerText, innerHTML, and textContent are meaningless here.
+
+Its content lives in its value attribute.
+
+
+1) class / id name should be consistent 
+2) for nested sub class/id use __
+3) for modifier classed use --
+4) for constant use const and define on top 
+5) use querySelector for first occurence DOM elements
+6) let for mutable elements
+7) .remove() --> removes element from DOM
+8) use data-attributes rather than manipulation on static value
+9) use function for better readability

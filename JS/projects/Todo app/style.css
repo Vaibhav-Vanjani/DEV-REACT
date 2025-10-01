@@ -1,0 +1,7 @@
+body{
+    font-family: sans-serif;
+}
+
+#todo-list-container-box-list-todo-individual{
+    border: 0.1rem black solid;
+}
