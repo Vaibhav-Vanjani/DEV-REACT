@@ -1,0 +1,18 @@
+[data-theme="dark"]{
+  --bg-color:white;
+  --font-color:black;
+}
+
+[data-theme="light"]{
+  --bg-color: black;
+  --font-color:white;
+}
+
+body{
+  background-color: var(--bg-color);
+}
+
+h1,p,section,span,div{
+  color: var(--font-color); 
+}
+
